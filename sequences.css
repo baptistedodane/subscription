@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 1200px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+#main {
+  float: left;
+  width: 750px;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#navbar {
+  float: right;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.link {
+  width: 170px;
+  height: 40px;
+  background-color: #cecece;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 38px;
+  font-weight:800;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#diy {
+  background-color: #e15759;
+}
+
+#fashion {
+  background-color: #7f45d6;
+}
+
+#subscription {
+  background-color: #edc948;
+}
+
+#mix {
+  background-color: #cecece;
+}
+
+#global {
+  background-color: #9bd6d1;
+}
+
+#sequence {
+  width: 600px;
+  height: 70px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 245px;
+  left: 378px;
+  width: 195px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage {
+  font-size: 2.5em;
+}
